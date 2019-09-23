@@ -1,0 +1,29 @@
+<div className="item">
+  <i className="fas fa-arrow-left arrow1 fa-5x" />
+</div>
+
+// CSS
+
+
+.item {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    position: relative;
+}
+
+  .arrow1 {
+    animation: slide1 1s ease-in-out infinite;
+    margin-left: 9px;
+  }
+
+  @keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(10px, 0);
+    }
+  }
